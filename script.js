@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 		 $.ajax({
         url: 'https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDYgc6ZSNkQnifUjrrCBEWxY-pZwsER38U'
 		    }).then(function(json) {
-		      console.log(json.results.address_components.long_name[0];
+		      console.log(json.results.address_components.long_name[0]);
 		});
 
 
