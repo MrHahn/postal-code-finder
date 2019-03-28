@@ -8,8 +8,8 @@ jQuery(document).ready(function($){
 		});
 
 
-		function processJson(json)
-			alert($(json).find('types').text());	
+		function processJson(json){
+			alert($(json).find('status').text());	
 		}
 	})
 })
