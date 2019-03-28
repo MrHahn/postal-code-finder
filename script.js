@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
 		});
 
 
-		function processJson(xml){
+		function processXML(xml){
 			alert($(xml).find('status').text());	
 		}
 	})
