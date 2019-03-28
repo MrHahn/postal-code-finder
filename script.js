@@ -3,13 +3,13 @@ jQuery(document).ready(function($){
 		$.ajax({
 			type: 'GET',
 			url:'https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDYgc6ZSNkQnifUjrrCBEWxY-pZwsER38U',
-			dataType: 'json',
-			success: processJson
+			dataType: 'xml',
+			success: processXML
 		});
 
 
-		function processJson(json){
-			alert($(json).find('status').text());	
+		function processJson(xml){
+			alert($(xml).find('status').text());	
 		}
 	})
 })
