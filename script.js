@@ -8,8 +8,7 @@ jQuery(document).ready(function($){
 		});
 
 		function processJson(json){
-			console.log(json);
-			alert('success');
+			alert($(json).find('address_component').text());	
 		}
 	})
 })
